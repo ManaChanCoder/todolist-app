@@ -1,13 +1,44 @@
-# React + Vite
+--> Todo List App <--
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based Todo List application that allows users to add, edit, and delete tasks. The app fetches initial data from an API and provides a modal for editing tasks.
 
-Currently, two official plugins are available:
+-- Features --
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+• Add new tasks to the list
+• Delete existing tasks
+• Edit tasks using a modal
+• Fetches initial todo items from an API (JSONPlaceholder)
 
-## Expanding the ESLint configuration
+-- Technologies Used --
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# todolist-app
+-> React.js
+-> Bootstrap
+-> React Icons
+
+-- Installation --
+
+1. Clone this repository:
+   git clone https://github.com/your-username/your-repo.git
+
+2. Navigate into the project folder:
+   cd your-repo
+
+3. Install dependencies:
+   npm install
+
+4. Run the project:
+   npm run dev
+
+-- Usage insturction --
+
+1. Enter a task in the input field and click "Add" to add it to the list.
+
+2. Click the delete icon to remove a task.
+
+3. Click the edit icon to open a modal and update the task.
+
+4. Changes will be reflected in the UI in real-time.
+
+-- API Used --
+
+JSONPlaceholder is used to fetch initial todo items.
