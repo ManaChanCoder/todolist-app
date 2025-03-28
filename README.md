@@ -18,7 +18,7 @@ A simple React-based Todo List application that allows users to add, edit, and d
 -- Installation --
 
 1. Clone this repository:
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/ManaChanCoder/todolist-app.git
 
 2. Navigate into the project folder:
    cd your-repo
