@@ -1,0 +1,81 @@
+.main-container {
+  min-height: 100vh;
+  background: #342e2e;
+  color: #ffffff;
+  padding: 40px 0;
+
+  /* layout */
+  display: grid;
+  place-items: center;
+}
+.btn-success {
+  border-radius: 0;
+}
+.del-btn {
+  cursor: pointer;
+}
+.all-btn {
+  opacity: 0.65;
+}
+
+.all-btn:hover {
+  opacity: 1;
+}
+form {
+  background: #fffdfd;
+  /* layout */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+form > input {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 5px 10px 5px 20px;
+}
+.form-container > h1 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.todo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+
+  /* layout */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.todo > div {
+  display: flex;
+  gap: 10px;
+
+  align-items: center;
+}
+.update-form {
+  /* layout */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons-update-form {
+  /* layout */
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.show {
+  background-color: #000;
+  color: #ffffff;
+}
+.edit-input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+}
